@@ -1,0 +1,143 @@
+html, body {
+	height: 100%;
+}
+body {
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+	background: url(../assets/img/a.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/**********************************************************************/
+/************************** COMMON ELEMENTS **************************/
+/********************************************************************/
+
+a:focus {
+    outline: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+}
+/** Custom styles **/
+.vis-hidden {
+	visibility: hidden !important;
+}
+a {
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#mainWrap {
+	min-height: 100%;
+	overflow: auto;
+	padding-bottom: 96px;
+}
+/**********************************************************************/
+/************************** LOGIN CONTAINER **************************/
+/********************************************************************/
+
+#loggit {
+	background: url(../assets/img/75.png);
+	width: 480px;
+	margin: 5% auto 0;
+	padding: 20px 40px;
+}
+#loggit h1 {
+	text-align: center;
+	font-weight: 700;
+	margin: 5px 0 15px;
+}
+#loggit h3 {
+	text-align: center;
+	font-size: 18px;
+	color: #bbb;
+	margin: 0 0 20px;
+}
+#loggit .input-group-addon {
+	border: 0 none;
+}
+#loggit .form-control {
+	border: 0 none;
+}
+#loggit .form-control:focus {
+	box-shadow: none;
+}
+#loggit .formSubmit {
+	margin-bottom: 25px;
+}
+#loggit .submitWrap {
+	text-align: right;
+}
+#loggit .formNotice {
+	margin: 0;
+	font-size: 13px;
+}
+#loggit .formNotice span {
+	cursor: pointer;
+	color: #428BCA;
+}
+#loggit .formNotice span:hover,
+#loggit .formNotice span:focus {
+    color: #2A6496;
+    text-decoration: underline;
+}
+#loggit #regForm {
+	display: none;
+}
+/**********************************************************************/
+/************************* FOOTER ************************************/
+/********************************************************************/
+footer {
+	background: none repeat scroll 0 0 #111111;
+    height: 76px;
+    margin-top: -76px;
+    position: relative;
+	text-align: center;
+	padding: 20px 0;
+}
+footer p {
+	color: #CCCCCC;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0;
+	padding: 0 5px;
+	font-size: 16px;
+}
+
+/**********************************************************************/
+/****************** MEDIA QUERIES ************************************/
+/********************************************************************/
+
+@media(max-width:979px){
+
+
+}
+@media (max-width: 768px) {
+	body {
+		padding-bottom: 0;
+	}
+	#loggit {
+		margin-top: 0;
+		width: 100%;
+	}
+	#loggit .submitWrap {
+		margin-top: 15px;
+		text-align: center;
+	}
+	footer {
+		position: relative;
+	}
+	footer p{
+		font-size: 13px;
+	}
+	
+}
+@media (max-width: 500px) {
+	#loggit {
+		width: 100%;
+	}
+}

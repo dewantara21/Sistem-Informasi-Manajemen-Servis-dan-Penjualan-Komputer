@@ -1,0 +1,22 @@
+http://localhost/inventory
+
+
+
+# LOGIN ADMINISTRATOR
+User: admin
+Password: admin
+
+lalu pilih Level : Admin
+
+# LOGIN KASIR
+User: kasir
+Password : kasir
+
+lalu pilih Level : Kasir
+
+# LOGIN KASIR
+User: Manager
+Password : manager
+
+lalu pilih Level : manager
+

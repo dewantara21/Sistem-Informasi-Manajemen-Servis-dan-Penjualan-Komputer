@@ -1,0 +1,29 @@
+body,td,th {
+	font-family: Courier New, Courier, monospace;
+}
+body{
+	margin:0px auto 0px;
+	padding:3px;
+	font-size:12px;
+	color:#333;
+	width:95%;
+	background-position:top;
+	background-color:#fff;
+}
+.table-list {
+	clear: both;
+	text-align: left;
+	border-collapse: collapse;
+	margin: 0px 0px 10px 0px;
+	background:#fff;	
+}
+.table-list td {
+	color: #333;
+	font-size:12px;
+	border-color: #fff;
+	border-collapse: collapse;
+	vertical-align: center;
+	padding: 3px 5px;
+	border-bottom:1px #CCCCCC solid;
+}
+-->
